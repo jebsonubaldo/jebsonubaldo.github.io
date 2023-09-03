@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0 100px 0;
+}
+
+#home {
+    height: 100vh;
+}
+
+/* Navigation Bar */
+nav {
+    width: 84%;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.7);
+    margin: 20px 10px;
+}
+
+.icon {
+    font-size: 24px;
+    margin-left: 3px;
+    padding-left: 3px;
+}
+
+.nav-link:hover, .icon:hover {
+    color: blue;
+}
+
+fa:hover {
+    color: blue;
+}
+
+/* Text Format */
+h1 {
+    font-size: 128px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;   
+}
+
+h3 {
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 128px;
+    margin: 50px 0;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 600;   
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(55, 65, 81);
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(249, 250, 251);
+    border-radius: 7px;
+    width: 270px;
+    padding: 12px 12px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(107, 114, 128);
+    padding: 0;
+}
+
+/* #home {
+    background: url(/assets/images/bg.png);
+} */
+
+#about h4 {
+    padding-left: 10px;
+}
+
+.social-links {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(107, 114, 128);
+    padding: 1px 10px;
+    display: block;
+    font-family: 'Courier Prime', monospace;
+}
+
+img {
+    width: 65px;
+    height: 90px;
+    padding: 20px 0;
+    margin-right: 10px;
+}
+
+.project {
+    width: 45%;
+    height: 140px;
+    margin: 15px auto;
+    padding: 20px 20px;
+    border: 1px solid #e6e7e8;
+    border-radius: 10px;
+}
+
+#certificate h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(17, 24, 39);
+} 
+
+.certificate {
+    width: 30%;
+    height: 100px;
+    margin: 15px auto;
+    padding: 20px 20px;
+    border: 1px solid #e6e7e8;
+    border-radius: 10px;
+}
+
+.hyperlink {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(55, 65, 81);
+}
+
+.hyperlink .fa {
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(55, 65, 81);
+    padding-right: 15px;
+}
+
+a {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(17, 24, 39);
+    text-decoration: none;
+    padding: 0;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(249, 250, 251);
+    padding: 0 5px;
+    border-radius: 7px;
+    width: 180px;
+    padding: 8px;
+    border: none;
+}
+
+a strong u {
+    font-size: 17px;
+}
+
+.cta {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta img {
+    height: 100px;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-top: 1px solid #e6e7e8;
+}
+
+footer span {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+/* Mobile-Tablet */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    
+    .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(0, 0, 0, 0.7);
+        margin: 5px 10px;
+    }
+
+    .icon {
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 90px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        position: static;
+        padding: 15px 15px;
+        background-color: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-radius: 10px;
+        z-index: 4;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 600;   
+    }
+
+    .project {
+        width: 90%;
+        height: 200px;
+        margin: 15px auto;
+        padding: 20px 20px;
+        border: 1px solid #e6e7e8;
+        border-radius: 10px;
+    }
+
+    .certificate {
+        width: 90%;
+        height: 100px;
+        margin: 15px auto;
+        padding: 20px 20px;
+        border: 1px solid #e6e7e8;
+        border-radius: 10px;
+    }
+
+    .cta {
+        width: 85%;
+    }
+}
+
+img {
+    object-fit: contain;
+}
