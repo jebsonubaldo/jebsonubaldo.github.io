@@ -1,384 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Meta -->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    
-  <!-- CSS -->
+  <title>Jebson Ubaldo</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- Icons -->
-  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-
-  <!-- Fontawesome -->
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
-
-  <!-- Animation -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-  <title>Jebson Ubaldo | Web Developer</title>
-  <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 </head>
+
 <body>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarButtonsExample" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars"></i>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarButtonsExample">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certificates">Certificates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="d-flex align-items-center">
-        <a class="icon link-secondary me-3" href="https://web.facebook.com/jebsonoreniaubaldo/" target="_blank" data-mdb-toggle="tooltip" title="@jebsonoreniaubaldo">
-          <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        </a>
-        <a class="icon link-secondary me-3" href="https://www.instagram.com/jebson_ubaldo/" target="_blank" data-mdb-toggle="tooltip" title="@jebson_ubaldo">
-          <i class="fa fa-instagram"></i>
-        </a>
-        <a class="icon link-secondary me-3" href="https://www.linkedin.com/in/jebsonubaldo/" target="_blank" data-mdb-toggle="tooltip" title="@jebsonubaldo">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-        <a class="icon link-secondary me-3" href="https://github.com/JebsonUbaldo" target="_blank" data-mdb-toggle="tooltip" title="@Jebson_Ubaldo">
-          <i class="fa fa-github"></i>
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Home -->
-  <section id="home">
-    <div class="container">
-      <h1>Hello.</h1>
-      <div class="row">
-        <div class="col-md-8">
-          <h2 class="text-primary mt-2 mb-3">Jebson Orenia Ubaldo | Web Developer</h2>
-          <p>I am a developer specializing in building web systems and applications based in Philippines. I took up Bachelor of Science in Information Technology in Pangasinan State University - Urdaneta Campus, Philippines.</p>
-          <a class="button btn btn-primary mt-2" href="assets/Jebson Ubaldo Resume.pdf" download>DOWNLOAD CV <i class='bx bx-down-arrow-alt'></i></a>
+  <!-- Hero -->
+  <div class="bg-white">
+    <header>
+      <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="#" class="-m-1.5 p-1.5">
+            <span class="sr-only">Your Company</span>
+            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+          </a>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about">
-    <div class="container">
-      <h3><span class="text-primary">About</span> Me</h3>
-      <div class="row mb-5">
-        <div class="col-md-12">
-          <h4>I am a developer specializing in building web systems and applications based in Pangasinan, Philippines.</h4>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Open main menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mt-5">
-          <div class="mb-5">
-            <h5>Services Offered</h5>
-            <p>Web Development - Manage your content and products with a custom website tailored-fit to your needs and requests.</p>
-            <p>Web Design - Turn your dream website into reality through visualization and prototyping.</p>
-            <p>Design Conversion - Turn your design into a fully functioning site.</p>
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Product</a>
+  
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
+  
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
+  
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+        </div>
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div class="lg:hidden" role="dialog" aria-modal="true">
+        <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-50"></div>
+        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Your Company</span>
+              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+            </a>
+            <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+              <span class="sr-only">Close menu</span>
+              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
           </div>
-
-          <div class="mb-5">
-            <h5>Social Links</h5>
-            <a href="mailto:ubaldojebson@gmail.com" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Email</a>
-            <a href="https://web.facebook.com/jebsonoreniaubaldo/" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Facebook</a>
-            <a href="https://www.instagram.com/jebson_ubaldo/" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Instagram</a>
-            <a href="https://www.linkedin.com/in/jebsonubaldo/" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Linkedin</a>
-            <a href="https://github.com/JebsonUbaldo" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Github</a>
-            <a href="https://www.behance.net/jebsonubaldo" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Behance</a>
-            <a href="https://dribbble.com/Jebson" target="_blank" class="social-links my-4"><i class='bx bx-right-arrow-alt'></i> Dribble</a>
-          </div>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-7 mt-5">
-          <div class="mb-5">
-            <h5>Introduce</h5>
-            <p>As a web developer, learning something new is my hobby, and I always make myself motivated and productive every day. I enjoy exploring technologies, libraries, tricks, techniques, and best practices to build my projects to run efficiently with beautiful, readable, clean code. I always make myself better than yesterday.</p>
-            <p>I'm a bit of a digital product junky. Over the years, I've used hundreds of web and mobile apps in different industries and verticals. Eventually, I decided that it would be a fun challenge to try designing and building my own. I love researching, solving programming problems, and learning technologies and I enjoy coding challenges.</p>
-            <p>I like to read, research new technologies, watch movies and TV shows when I'm not writing code. Since I was little, I have been incredibly passionate about all forms of art.</p>
-          </div>
-          <div class="py-4">
-            <h6 class="bg-primary">Education Background<i class='bx bx-down-arrow-alt'></i></h6>
-            <div class="py-3">
-              <h5>Bachelor of Science in Information Technology Major in Web and Mobile Technologies</h5>
-              <p>Pangasinan State University | 2019 - 2023</p>
-            </div>
-            <!-- <div class="py-3">
-              <h5>Associate in Computer Science</h5>
-              <p>Asian Institute of Computer Science | 2013 - 2015</p>
-            </div> -->
-            <!-- <div class="py-3">
-              <h5>Secondary Education</h5>
-              <p>Don Ramon E. Costales Memorial National High School | 2009 - 2013</p>
-            </div>
-            <div class="py-3">
-              <h5>Primary Education</h5>
-              <p>Lipay Elementary School | 2002 - 2009</p>
-            </div> -->
-          </div>
-          <div class="py-4">
-            <h6 class="bg-primary">Technologies Stack <i class='bx bx-down-arrow-alt'></i></h6>
-            <div class="py-3">
-              <img src="assets/images/html.png" alt="HTML">
-              <img src="assets/images/css.png" alt="CSS">
-              <img src="assets/images/js.png" alt="JS">
-              <img src="assets/images/bootstrap.png" alt="Bootstrap">
-              <img src="assets/images/jquery.png" alt="JQuery">
-              <img src="assets/images/php.png" alt="PHP">
-              <img src="assets/images/laravel.png" alt="Laravel">
-              <img src="assets/images/git.png" alt="Git">
-              <img src="assets/images/github.png" alt="Github">
-              <img src="assets/images/bitbucket.png" alt="Bitbucket">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container">
-      <h3><span class="text-primary">Recent </span><br>Projects</h3>
-      <div class="row">
-        <div class="project col-md-6">
-          <a href="https://dev-projectbeans.pantheonsite.io/" target="_blank" class="hyperlink">Project Beans : Coffee Beans Shop WordPress Project <i class='bx bx-right-arrow-alt'></i></a>
-          <p>June 2023 - July 2023</p>
-        </div>
-        <div class="project col-md-6">
-          <a href="https://jobi-6e0b4dda90ab.herokuapp.com/" target="_blank" class="hyperlink">Jobi: Job Portal Website <i class='bx bx-right-arrow-alt'></i></a>
-          <p>July 2023 - August 2023</p>
-        </div>
-        <div class="project col-md-6">
-          <a href="#" target="_blank" class="hyperlink">PSU-UCC Supply Inventory Management System with Predictive Analysis <i class='bx bx-right-arrow-alt'></i></a>
-          <p>November 2022 - January 2023</p>
-        </div>
-        <div class="project col-md-6">
-          <a href="https://jebsonubaldo.github.io/Budget-Monitoring-Management/" target="_blank" class="hyperlink">iBudget: Budget Monitoring and Management with Spending Analysis <i class='bx bx-right-arrow-alt'></i></a>
-          <p>November 2022 - January 2023</p>
-        </div>
-        <div class="project col-md-6">
-          <a href="https://jebsonubaldo.github.io/Silid-Booklatan/" target="_blank" class="hyperlink">Silid-Booklatan: Villasis Municipal Library Management Information System <i class='bx bx-right-arrow-alt'></i></a>
-          <p>March 2022 - July 2022</p>
-        </div>
-        <div class="project col-md-6">
-          <a href="#" target="_blank" class="hyperlink">Urdaneta City District Hospital Animal Bite Treatment Center Appointment System <i class='bx bx-right-arrow-alt'></i></a>
-          <p>October 2021 - January 2022</p>
-        </div>
-        <!-- <div class="project col-md-6">
-          <a href="#" class="hyperlink">Design & Build: Home Design Customization and Construction Platform <i class='bx bx-right-arrow-alt'></i></a>
-          <p>March 2021 - May 2021</p>
-        </div> -->
-    </div>
-  </section>
-
-  <!-- Certificates -->
-  <section id="certificates">
-    <div class="container">
-      <h3><span class="text-primary">Certifications</span><i class='bx bx-down-arrow-alt'></i></h3>
-      <div class="row">
-        <div class="certificate col-md-4">
-          <a href="https://www.topcit.or.kr/home.do" target="_blank" class="hyperlink">2023 TOPCIT Philippines<i class='bx bx-right-arrow-alt'></i></a>
-          <p>Institute for ICT Promotions</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1RTSiXhRbXcy-ajfo5Tq495ZqXB3umTNY/view?usp=sharing" target="_blank" class="hyperlink">Front-end Web Devt' 101 <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Bayan Academy</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1RdDyPCDGH8HChxVFmUU2sjupCBgY-G4e/view?usp=sharing" target="_blank" class="hyperlink">Back-end Web Devt' 101 <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Bayan Academy</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1rhzx7I1x9JZBu6PX0N2KAli2mboOBVHF/view?usp=sharing" target="_blank" class="hyperlink">HTML Course <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1PJVbUYMeUJVDtpnlBdZLGG0JBu4NOR6F/view?usp=sharing" target="_blank" class="hyperlink">CSS Course <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1lwDhYC1iMnEhgScPyeY3oNGP_nj5JIKh/view?usp=sharing" target="_blank" class="hyperlink">Javascript Course <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1XyiI7J1OWqbpG8JJe2Afqp8JON_oehz4/view?usp=sharing" target="_blank" class="hyperlink">PHP Course <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1X5Z5bMp_wvKORMqOsmH_tx1N5An_gHpX/view?usp=sharing" target="_blank" class="hyperlink">SQL Course <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1DiyVZuDD-gc8hfiCtQs8JtiLbdIPaIeU/view?usp=sharing" target="_blank" class="hyperlink">Web Dev Fundamentals <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Sololearn</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://www.testdome.com/certificates/26d0954f0b974ac9b067a3851f4674ad" target="_blank" class="hyperlink">HTML/CSS and Javascript <i class='bx bx-right-arrow-alt'></i></a>
-          <p>TestDome</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://www.testdome.com/certificates/13adedc713c04c90a52ac3fcf77c2254" target="_blank" class="hyperlink">PHP and Laravel <i class='bx bx-right-arrow-alt'></i></a>
-          <p>TestDome</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://www.testdome.com/certificates/32fa0c9188364aa68fe696a7f35b04db" target="_blank" class="hyperlink">Laravel <i class='bx bx-right-arrow-alt'></i></a>
-          <p>TestDome</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://www.testdome.com/certificates/a21de201234347499fa3a3d5c108547d" target="_blank" class="hyperlink">MYSQL and SQL <i class='bx bx-right-arrow-alt'></i></a>
-          <p>TestDome</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1FgYY8m2CmTAv25-bQevR0FtMo8IrMWz_/view?usp=sharing" target="_blank" class="hyperlink">Cybersecurity <i class='bx bx-right-arrow-alt'></i></a>
-          <p>DICT</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1rsDKhHvabPTHoq9xCPKpMlpkRyEL1eoL/view?usp=sharing" target="_blank" class="hyperlink">Wireless Evolution <i class='bx bx-right-arrow-alt'></i></a>
-          <p>DICT</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1wYkSzWKCCDXLzu6r_m0xdyCjiC6j9aVf/view?usp=sharing" target="_blank" class="hyperlink">Internet of Things <i class='bx bx-right-arrow-alt'></i></a>
-          <p>MAPUA</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1ItjFv0K-WKWCygRrxnQihUj8wAy6kmx_/view?usp=sharing" target="_blank" class="hyperlink">Accenture Discovery <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Forage</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1QoTpElqiK3-qUfbETIK8IT65mndY5xzX/view?usp=sharing" target="_blank" class="hyperlink">Startup Summit 2022 <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Byte</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1j9IHTOEAupq5owfstesn1i8xZaoY1eOq/view?usp=sharing" target="_blank" class="hyperlink">IT Innovations <i class='bx bx-right-arrow-alt'></i></a>
-          <p>PSU</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/19B8Wg8qJYG37jRoVciGmL2myrCS9F53M/view?usp=sharing" target="_blank" class="hyperlink">IT Skillup <i class='bx bx-right-arrow-alt'></i></a>
-          <p>PSU</p>
-        </div>
-        <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/1QtkLsisPeSen63u_y738Zr8vcJFRb5qf/view?usp=sharing" target="_blank" class="hyperlink">Web Development <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Zuitt</p>
-        </div>
-        <!-- <div class="certificate col-md-4">
-          <a href="https://drive.google.com/file/d/11RYVzhfb4rwZQlp69Kx4XTNI6DQR8NwA/view?usp=sharing" target="_blank" class="hyperlink">Soft Skills for Developers <i class='bx bx-right-arrow-alt'></i></a>
-          <p>Zuitt</p>
-        </div> -->
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <div class="container">
-      <h3><span class="text-primary">Get in </span><br>Touch</h3>
-        <div class="row">
-          <div class="col-md-4 mt-5">
-            <div class="mb-5">
-              <h5>Hire Me</h5>
-              <p>For any sort of help or inquiries, feel free to send me an email and I'll get back to you soon. I am available for full time, part time and freelance work. Connect with me and let's talk about everything via message form or thru my email address:
-              <div class="mt-3">
-                <a href="mailto:ubaldojebson@gmail.com"><strong><u>ubaldojebson@gmail.com</u></strong></a>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Product</a>
+  
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Features</a>
+  
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Marketplace</a>
+  
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Company</a>
+              </div>
+              <div class="py-6">
+                <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
               </div>
             </div>
           </div>
-          <div class="col-md-1"></div>
-          <div class="col-md-7 mt-5">
-            <div class="mb-5">
-              <h5>Message Me</h5>
-              <form>
-                  <div class="my-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp" required>
-                  </div>
-                  <div class="mb-3">
-                      <label for="email" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" name="message" id="message" cols="30" rows="8" required></textarea>
-                  </div>
-                  <button type="submit" class="button bg-primary mt-2">SEND MESSAGE <i class='bx bxs-send' ></i></button>
-                </form>
+        </div>
+      </div>
+    </header>
+    <!-- <div class="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
+    
+      <div class="mx-auto max-w-7xl px-6 py-32 sm:py-40 lg:px-8">
+        <div class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
+          <h1 class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 leading-10 sm:text-6xl lg:col-span-2 xl:col-auto">Hi There, I’m Jebson Orenia Ubaldo</h1>
+          <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
+            <p class="text-lg leading-8 text-gray-600">Hi I’m a Web Developer, creating bold and brave Interface design for companies all across the world</p>
+            <div class="mt-10 flex items-center gap-x-6">
+              <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+              <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
             </div>
           </div>
+          <img src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80" alt="" class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36">
+        </div>
       </div>
+      <div class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"></div>
+    </div> -->
+  </div>
+  
+
+  <!-- Services -->
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">What do I help?</h2>
+        <p class="mt-6 text-md leading-8 text-gray-600">I will help you with finding a solution and solve your problems.
+          We use proccess design to create digital products. besides that i also help their business </p>
+      </div>
+      <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                </svg>
+              </div>
+              Web Development
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Building, creating, and maintaining of websites. It
+              includes aspects such as web design, web publishing.</dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                </svg>
+              </div>
+              Mobile App Design
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Designing mobile applications. optimal usability,
+              accessibility, engagement, and overall user experience.</dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                </svg>
+              </div>
+              UX Research
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Learning what end users of a system or product need and
+              want, then employing those insights to products</dd>
+          </div>
+
+          <div class="relative pl-16">
+            <dt class="text-base font-semibold leading-7 text-gray-900">
+              <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                  aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                </svg>
+              </div>
+              Brand Identity
+            </dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Produce designs across a variety of formats, platforms
+              social media, and more.</dd>
+          </div>
+        </dl>
       </div>
     </div>
-  </section>
+  </div>
+
+  <!-- Work Experience -->
+  <div class="bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">My Latest Work</h2>
+        <p class="mt-6 text-md leading-8 text-gray-600">Perfect solution for digital experience</p>
+      </div>
+      <div class="mx-auto mt-16 max-w-3xl sm:mt-20 lg:mt-24 lg:max-w-none">
+        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-1">
+          <article class="relative isolate flex flex-col gap-8 lg:flex-row">
+            <div class="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+              <img
+                src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80"
+                alt="" class="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover">
+              <div class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+            </div>
+            <div>
+              <div class="flex items-center gap-x-4 text-xs">
+                <time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
+                <a href="#"
+                  class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Marketing</a>
+              </div>
+              <div class="group relative max-w-xl">
+                <h3 class="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Boost your conversion rate
+                  </a>
+                </h3>
+                <p class="mt-5 text-sm leading-6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic
+                  vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat
+                  consectetur nulla deserunt vel iusto corrupti dicta laboris incididunt.</p>
+              </div>
+              <div class="mt-6 flex border-t border-gray-900/5 pt-6">
+                <div class="relative flex items-center gap-x-4">
+                  <img
+                    src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                    alt="" class="h-10 w-10 rounded-full bg-gray-50">
+                  <div class="text-sm leading-6">
+                    <p class="font-semibold text-gray-900">
+                      <a href="#">
+                        <span class="absolute inset-0"></span>
+                        Michael Foster
+                      </a>
+                    </p>
+                    <p class="text-gray-600">Co-Founder / CTO</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </dl>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
 
   <!-- CTA -->
-  <section class="cta">
-    <div class="container">
-      <h4>That's enough for me, Let's talk about you.</h4>
-      <img src="assets/images/logo.png" alt="">
-      <p>If you want your website to stand out from the competition, you need a stand-out design. Let’s build something amazing together.</p>
+  <div class="bg-white">
+    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div
+        class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+        <h2 class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-white sm:text-4xl">Let’s Make Something
+          Great Together!</h2>
+        <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">I will help you to create your brands and
+          innovate businesses</p>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+          <a href="#"
+            class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Let's
+            talk <span aria-hidden="true">→</span></a></a>
+        </div>
+        <svg viewBox="0 0 1024 1024"
+          class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]"
+          aria-hidden="true">
+          <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.7" />
+          <defs>
+            <radialGradient id="827591b1-ce8c-4110-b064-7cb85a0b1217">
+              <stop stop-color="#7775D6" />
+              <stop offset="1" stop-color="#E935C1" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
     </div>
-  </section>
+  </div>
 
-  <!-- Footer -->
-  <footer class="text-center text-lg-start text-muted">
-    <section class="d-flex justify-content-center justify-content-lg-between">
-      <div class="lg-block">
-        <span>Copyright © 2022. </span>
-      </div>
 
-      <div>
-        <span>Made with &#128153; by Jebson Ubaldo</span>
+  <!-- Footer  -->
+  <footer class="bg-white">
+    <div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8">
+      <div class="flex justify-center space-x-6 md:order-2">
+        <a href="#" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Facebook</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <a href="#" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Instagram</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <a href="#" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">Twitter</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+          </svg>
+        </a>
+
+        <a href="#" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">GitHub</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
+
+        <a href="#" class="text-gray-400 hover:text-gray-500">
+          <span class="sr-only">YouTube</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd"
+              d="M19.812 5.418c.861.23 1.538.907 1.768 1.768C21.998 8.746 22 12 22 12s0 3.255-.418 4.814a2.504 2.504 0 0 1-1.768 1.768c-1.56.419-7.814.419-7.814.419s-6.255 0-7.814-.419a2.505 2.505 0 0 1-1.768-1.768C2 15.255 2 12 2 12s0-3.255.417-4.814a2.507 2.507 0 0 1 1.768-1.768C5.744 5 11.998 5 11.998 5s6.255 0 7.814.418ZM15.194 12 10 15V9l5.194 3Z"
+              clip-rule="evenodd" />
+          </svg>
+        </a>
       </div>
-    </section>
+      <div class="mt-8 md:order-1 md:mt-0">
+        <p class="text-center text-xs leading-5 text-gray-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+      </div>
+    </div>
   </footer>
 
-  <!-- Bootstrap CSS -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-
-  <!-- Animation -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  
-  <!--Start of Tawk.to Script-->
-<!-- <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/632bb56f37898912e96a920a/1gdhbpgbn';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script> -->
-<!--End of Tawk.to Script-->
 </body>
+
 </html>
